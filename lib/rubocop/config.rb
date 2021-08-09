@@ -16,7 +16,7 @@ module RuboCop
 
     COMMON_PARAMS = %w(Exclude Include Severity
                        AutoCorrect StyleGuide Details).freeze
-    KNOWN_RUBIES = [1.9, 2.0, 2.1, 2.2, 2.3].freeze
+    KNOWN_RUBIES = [1.9, 2.0, 2.1, 2.2, 2.3,2.7].freeze
     OBSOLETE_COPS = {
       'Style/TrailingComma' =>
         'The `Style/TrailingComma` cop no longer exists. Please use ' \
